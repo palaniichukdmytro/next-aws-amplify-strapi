@@ -1,2 +1,1 @@
-# next-aws-amplify-strapi
-Nextjs + AWS Amplify + Strapi 5 
+This is a Nextjs + AWS Amplify + Strapi 5
