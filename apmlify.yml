@@ -3,9 +3,12 @@ frontend:
   phases:
     preBuild:
       commands:
+        - nvm install v20.11.0
+        - nvm use v20.11.0
         - npm ci
     build:
       commands:
+        - nvm use v20.11.0
         - npm run build
   artifacts:
     baseDirectory: .next
